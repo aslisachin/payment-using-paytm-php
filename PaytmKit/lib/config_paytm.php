@@ -28,7 +28,7 @@
 //	For PayTM Settings::
 //=================================================
 
-$PAYTM_ENVIRONMENT = "PROD";	// For Production /LIVE
+// $PAYTM_ENVIRONMENT = "PROD";	// For Production /LIVE
 $PAYTM_ENVIRONMENT = "TEST";	// For Staging / TEST
 
 if(!defined("PAYTM_ENVIRONMENT") ){
@@ -60,8 +60,8 @@ if (PAYTM_ENVIRONMENT == 'PROD') {
 	$PAYTM_TXN_URL='https://securegw-stage.paytm.in/theia/processTransaction';
 
 	//Change this constant's value with Merchant key received from Paytm.
-	$PAYTM_MERCHANT_MID 		= "ENTER_YOUR_MERCHANT_ID";
-	$PAYTM_MERCHANT_KEY 		= "ENTER_YOUR_MERCHANT_KEY";
+	$PAYTM_MERCHANT_MID 		= "sUUbqm11986453364989";
+	$PAYTM_MERCHANT_KEY 		= "rxzPPqMhUZcIJGl6";
 
 	$PAYTM_CHANNEL_ID 		= "WEB";
 	$PAYTM_INDUSTRY_TYPE_ID = "Retail";
