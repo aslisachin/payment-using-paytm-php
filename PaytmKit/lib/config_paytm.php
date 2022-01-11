@@ -67,7 +67,7 @@ if (PAYTM_ENVIRONMENT == 'PROD') {
 	$PAYTM_INDUSTRY_TYPE_ID = "Retail";
 	$PAYTM_MERCHANT_WEBSITE = "WEBSTAGING";
 
-	$PAYTM_CALLBACK_URL 	= "http://127.0.0.1/devchandan/payment-using-paytm/response.php";
+	$PAYTM_CALLBACK_URL 	= "https://paytm-test-11.herokuapp.com/response.php";
 	
 }
 
