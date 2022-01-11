@@ -19,9 +19,9 @@
 */
 
  define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
-// define('PAYTM_MERCHANT_KEY', 'O0zUdIG%OQViK_'); //Change this constant's value with Merchant key received from Paytm.
-// define('PAYTM_MERCHANT_MID', 'dZlzzF171371019'); //Change this constant's value with MID (Merchant ID) received from Paytm.
-// define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
+ define('PAYTM_MERCHANT_KEY', 'rxzPPqMhUZcIJGl6'); //Change this constant's value with Merchant key received from Paytm.
+ define('PAYTM_MERCHANT_MID', 'sUUbqm11986453364989'); //Change this constant's value with MID (Merchant ID) received from Paytm.
+ define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
 
 
 //=================================================
